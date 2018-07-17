@@ -1,7 +1,9 @@
 <body>
 <h1>react_mobile</h1>
 <p>
-  此项目是基于antd-mobile, dva.js和create-react-app的react app项目模板，开箱即用，直接开发。如果能帮助到你的话，请给个Star!
+  此项目是基于antd-mobile, dva.js和create-react-app的react app项目模板，开箱即用，直接开发。
+  <br/>
+  如果能帮助到你的话，请给个Star!
 </p>
 <h2>技术选型：</h2>
 <ul>
