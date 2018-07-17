@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  min-height: 480px;
+}
+
+.iframe {
+  width: 100%;
+  border: none;
+}
+
+.am-navbar{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #ddd;
+  z-index: 100;
+  box-sizing: border-box;
+  .am-navbar-left-icon .am-icon-left{
+    width: 28px;
+    height:28px;
+    fill:@color-text-caption;
+  }
+}
+
+.date-picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+}
+//页面除去NavBar外的内容容器
+.contentWrap{
+  margin-top: 45px !important;
+  box-sizing: border-box;
+  border-top: 1px solid transparent;
+}
+
+.emptyTip {
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  margin-top: 45px;
+}
+
+.clearFix:after{
+  content:'';
+  height:0;
+  clear:both;
+  visibility:hidden;
+  display:block;
+}
+
+//SearchBar
+.am-search{
+  background-color: #fff !important;
+  .am-search-input{
+    border-radius: 15px !important;
+    background-color: #efeff4 !important;
+  }
+}
+
+//NavBar
+.navBarTopTitle{
+  width:100%;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow:ellipsis;
+}
+
+//
+.am-tab-bar-bar .am-tab-bar-tab .am-tab-bar-tab-title{
+  font-size: @font-size-caption-sm !important;
+}
+
+.am-tab-bar {
+  overflow: hidden;
+  height: auto!important;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+

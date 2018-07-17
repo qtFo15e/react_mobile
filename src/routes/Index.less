@@ -1,0 +1,35 @@
+@import "../../src/theme/default";
+
+.errorNet{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  z-index: 5000;
+  background: white;
+  pointer-events: all;
+}
+
+
+// 去掉 List 的前后 border 线，border 线使用 before 和 after 伪类实现
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx) {
+  html:not([data-scale]) .am-list-body::before {
+    content: none;
+  }
+  html:not([data-scale]) .am-list-body::after {
+    content: none;
+  }
+  //html:not([data-scale]) .am-list-body div:not(:last-child) .am-list-line::after {
+  //  content: none;
+  //}
+}
+
+
+
+// 去掉 List 的前后 border 线，border 线使用 before 和 after 伪类实现
+@media (-webkit-min-device-pixel-ratio: 2), not all, (min-resolution: 2dppx) {
+  html:not([data-scale]) .am-list-body div:not(:last-child) .am-list-line::after {
+    content: none;
+  }
+}
